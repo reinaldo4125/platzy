@@ -1,0 +1,225 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #FFEFE7;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+nav {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: #7C6A0A;
+}
+nav p {
+  font-size: 1.5em;
+  padding: 30px;
+}
+nav .icons {
+  display: flex;
+  gap: 15px;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
+}
+
+article {
+  color: #7C6A0A;
+  width: auto;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+article .impact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 50px;
+  gap: 25px;
+}
+article h1 {
+  font-size: 3em;
+  padding: 0px;
+  margin: 0px;
+}
+article p {
+  font-size: 1.5em;
+}
+article button {
+  width: 12vw;
+  padding: 20px;
+  background-color: #FA9500;
+  border-style: none;
+  border-radius: 35px;
+  color: white;
+  font-size: 1em;
+}
+article button:hover {
+  transform: scale(1.1);
+}
+article img {
+  width: 25vw;
+  border-radius: 19px;
+}
+
+section {
+  width: 90%;
+  height: auto;
+  padding: 60px;
+}
+section h2 {
+  color: #7C6A0A;
+  font-size: 2em;
+}
+section .healthcare, section .decoracion {
+  padding-bottom: 60px;
+}
+section .healthcare h2, section .decoracion h2 {
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+section .healthcare .card-section, section .decoracion .card-section {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
+  -moz-column-gap: 230px;
+       column-gap: 230px;
+  row-gap: 100px;
+}
+section .healthcare .product-card, section .decoracion .product-card {
+  width: 14vw;
+  height: 45vh;
+  background-color: #FFDAC6;
+  color: #7C6A0A;
+  padding: 20px;
+  border-radius: 8px;
+}
+section .healthcare .product-card .icon, section .decoracion .product-card .icon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 12px;
+}
+section .healthcare .product-card .icon svg, section .decoracion .product-card .icon svg {
+  width: 28px;
+  height: 28px;
+}
+section .healthcare .product-card .produc-image, section .decoracion .product-card .produc-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .healthcare .product-card .produc-image img, section .decoracion .product-card .produc-image img {
+  width: 12vw;
+  height: 30vh;
+  -o-object-fit: none;
+     object-fit: none;
+  border-radius: 6px;
+}
+section .decoracion .product-card {
+  background-color: #BABD8D;
+  color: white;
+}
+
+.about-us {
+  padding-bottom: 60px;
+}
+.about-us h2 {
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.about-us .mision-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-us .mision-section .earth, .about-us .mision-section .inovation {
+  width: 30vw;
+  display: flex;
+  gap: 40px;
+  color: #E86424;
+}
+.about-us .mision-section .earth img, .about-us .mision-section .inovation img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.about-us .mision-section .earth p, .about-us .mision-section .inovation p {
+  text-align: center;
+  font-size: 1, 5em;
+}
+.gallery {
+  padding-bottom: 60px;
+}
+.gallery h2 {
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.gallery .gallery-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.gallery .gallery-images img {
+  width: 28vw;
+  height: 35vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 5px 35%;
+     object-position: 5px 35%;
+  border-radius: 16px;
+}
+.gallery .gallery-images img:hover {
+  transform: scale(1.1);
+}
+
+.locations {
+  color: #E86424;
+}
+.locations h2 {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.locations .map {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.locations h3, .locations p {
+  font-size: 2, 2em;
+}
+
+footer {
+  background-color: #FA9500;
+  width: 100%;
+  height: auto;
+  color: white;
+  padding: 40px;
+}
+footer .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 40px;
+}/*# sourceMappingURL=main.css.map */
